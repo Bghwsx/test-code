@@ -1,0 +1,956 @@
+Starting deobfuscation with timeout of 2 minutes
+Running Simplify transformer
+Running MemberExpressionCleaner transformer
+Running LiteralMap transformer
+Running DeadCode transformer
+Running Demangle transformer
+Running StringDecoder transformer
+Caught an error while attempting to run AST visitor!
+
+node = {
+    "type": "CallExpression",
+    "start": 5291,
+    "end": 5310,
+    "range": [
+        5291,
+        5310
+    ],
+    "callee": {
+        "type": "Identifier",
+        "start": 5291,
+        "end": 5298,
+        "range": [
+            5291,
+            5298
+        ],
+        "name": "Boolean"
+    },
+    "arguments": [
+        {
+            "type": "UnaryExpression",
+            "start": 5299,
+            "end": 5309,
+            "range": [
+                5299,
+                5309
+            ],
+            "operator": "~",
+            "prefix": true,
+            "argument": {
+                "type": "Identifier",
+                "start": 5300,
+                "end": 5309,
+                "range": [
+                    5300,
+                    5309
+                ],
+                "name": "_0x679898"
+            }
+        }
+    ],
+    "optional": false
+} 
+err = TypeError: UnaryExpression argument is not Literal
+Running Simplify transformer
+Running MemberExpressionCleaner transformer
+Running Desequence transformer
+Running ControlFlow transformer
+_0x329be3.id = Identifier
+_0x38f1ab.id = Identifier
+_0x537691.ok = Literal
+_0x12eaf3.g = CallExpression
+Running Desequence transformer
+Running MemberExpressionCleaner transformer
+Running ArrayMap transformer
+Caught an error while attempting to run AST visitor!
+
+node = {
+    "type": "FunctionExpression",
+    "start": 6274,
+    "end": 6286,
+    "range": [
+        6274,
+        6286
+    ],
+    "id": null,
+    "expression": false,
+    "generator": false,
+    "async": false,
+    "params": [],
+    "body": {
+        "type": "BlockStatement",
+        "start": 6284,
+        "end": 6286,
+        "range": [
+            6284,
+            6286
+        ],
+        "body": []
+    }
+} 
+err = TypeError: Cannot read properties of undefined (reading 'type')
+Caught an error while attempting to run AST visitor!
+
+node = {
+    "type": "ArrowFunctionExpression",
+    "start": 7030,
+    "end": 7440,
+    "range": [
+        7030,
+        7440
+    ],
+    "id": null,
+    "expression": false,
+    "generator": false,
+    "async": false,
+    "params": [],
+    "body": {
+        "type": "BlockStatement",
+        "start": 7034,
+        "end": 7440,
+        "range": [
+            7034,
+            7440
+        ],
+        "body": [
+            {
+                "type": "EmptyStatement",
+                "start": 7035,
+                "end": 7439,
+                "range": [
+                    7035,
+                    7439
+                ],
+                "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 7035,
+                    "end": 7438,
+                    "range": [
+                        7035,
+                        7438
+                    ],
+                    "operator": "=",
+                    "left": {
+                        "type": "MemberExpression",
+                        "start": 7035,
+                        "end": 7049,
+                        "range": [
+                            7035,
+                            7049
+                        ],
+                        "object": {
+                            "type": "Identifier",
+                            "start": 7035,
+                            "end": 7044,
+                            "range": [
+                                7035,
+                                7044
+                            ],
+                            "name": "_0x12eaf3"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "start": 7045,
+                            "end": 7048,
+                            "range": [
+                                7045,
+                                7048
+                            ],
+                            "value": "g",
+                            "raw": "'g'",
+                            "name": "g"
+                        },
+                        "computed": false,
+                        "optional": false
+                    },
+                    "right": {
+                        "type": "CallExpression",
+                        "start": 7050,
+                        "end": 7438,
+                        "range": [
+                            7050,
+                            7438
+                        ],
+                        "callee": {
+                            "type": "FunctionExpression",
+                            "start": 7050,
+                            "end": 7436,
+                            "range": [
+                                7050,
+                                7436
+                            ],
+                            "id": null,
+                            "expression": false,
+                            "generator": false,
+                            "async": false,
+                            "params": [],
+                            "body": {
+                                "type": "BlockStatement",
+                                "start": 7060,
+                                "end": 7436,
+                                "range": [
+                                    7060,
+                                    7436
+                                ],
+                                "body": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "start": 7061,
+                                        "end": 7087,
+                                        "range": [
+                                            7061,
+                                            7087
+                                        ],
+                                        "declarations": [
+                                            {
+                                                "type": "VariableDeclarator",
+                                                "start": 7067,
+                                                "end": 7086,
+                                                "range": [
+                                                    7067,
+                                                    7086
+                                                ],
+                                                "id": {
+                                                    "type": "Identifier",
+                                                    "start": 7067,
+                                                    "end": 7076,
+                                                    "range": [
+                                                        7067,
+                                                        7076
+                                                    ],
+                                                    "name": "_0x13e8e9"
+                                                },
+                                                "init": {
+                                                    "type": "Identifier",
+                                                    "start": 7077,
+                                                    "end": 7086,
+                                                    "range": [
+                                                        7077,
+                                                        7086
+                                                    ],
+                                                    "name": "a0_0x4c4c"
+                                                }
+                                            }
+                                        ],
+                                        "kind": "const"
+                                    },
+                                    {
+                                        "type": "IfStatement",
+                                        "start": 7087,
+                                        "end": 7145,
+                                        "range": [
+                                            7087,
+                                            7145
+                                        ],
+                                        "test": {
+                                            "type": "BinaryExpression",
+                                            "start": 7090,
+                                            "end": 7126,
+                                            "range": [
+                                                7090,
+                                                7126
+                                            ],
+                                            "left": {
+                                                "type": "UnaryExpression",
+                                                "start": 7090,
+                                                "end": 7107,
+                                                "range": [
+                                                    7090,
+                                                    7107
+                                                ],
+                                                "operator": "typeof",
+                                                "prefix": true,
+                                                "argument": {
+                                                    "type": "Identifier",
+                                                    "start": 7097,
+                                                    "end": 7107,
+                                                    "range": [
+                                                        7097,
+                                                        7107
+                                                    ],
+                                                    "name": "globalThis"
+                                                }
+                                            },
+                                            "operator": "===",
+                                            "right": {
+                                                "type": "CallExpression",
+                                                "start": 7110,
+                                                "end": 7126,
+                                                "range": [
+                                                    7110,
+                                                    7126
+                                                ],
+                                                "callee": {
+                                                    "type": "Identifier",
+                                                    "start": 7110,
+                                                    "end": 7119,
+                                                    "range": [
+                                                        7110,
+                                                        7119
+                                                    ],
+                                                    "name": "_0x13e8e9"
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "Literal",
+                                                        "start": 7120,
+                                                        "end": 7125,
+                                                        "range": [
+                                                            7120,
+                                                            7125
+                                                        ],
+                                                        "value": 393,
+                                                        "raw": "0x189"
+                                                    }
+                                                ],
+                                                "optional": false
+                                            }
+                                        },
+                                        "consequent": {
+                                            "type": "BlockStatement",
+                                            "start": 7127,
+                                            "end": 7145,
+                                            "range": [
+                                                7127,
+                                                7145
+                                            ],
+                                            "argument": {
+                                                "type": "Identifier",
+                                                "start": 7134,
+                                                "end": 7144,
+                                                "range": [
+                                                    7134,
+                                                    7144
+                                                ],
+                                                "name": "globalThis"
+                                            },
+                                            "body": [
+                                                {
+                                                    "type": "ReturnStatement",
+                                                    "start": 7127,
+                                                    "end": 7145,
+                                                    "range": [
+                                                        7127,
+                                                        7145
+                                                    ],
+                                                    "argument": {
+                                                        "type": "Identifier",
+                                                        "start": 7134,
+                                                        "end": 7144,
+                                                        "range": [
+                                                            7134,
+                                                            7144
+                                                        ],
+                                                        "name": "globalThis"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "alternate": null
+                                    },
+                                    {
+                                        "type": "TryStatement",
+                                        "start": 7145,
+                                        "end": 7435,
+                                        "range": [
+                                            7145,
+                                            7435
+                                        ],
+                                        "block": {
+                                            "type": "BlockStatement",
+                                            "start": 7148,
+                                            "end": 7196,
+                                            "range": [
+                                                7148,
+                                                7196
+                                            ],
+                                            "body": [
+                                                {
+                                                    "type": "ReturnStatement",
+                                                    "start": 7149,
+                                                    "end": 7195,
+                                                    "range": [
+                                                        7149,
+                                                        7195
+                                                    ],
+                                                    "argument": {
+                                                        "type": "LogicalExpression",
+                                                        "start": 7156,
+                                                        "end": 7194,
+                                                        "range": [
+                                                            7156,
+                                                            7194
+                                                        ],
+                                                        "left": {
+                                                            "type": "ThisExpression",
+                                                            "start": 7156,
+                                                            "end": 7160,
+                                                            "range": [
+                                                                7156,
+                                                                7160
+                                                            ]
+                                                        },
+                                                        "operator": "||",
+                                                        "right": {
+                                                            "type": "CallExpression",
+                                                            "start": 7162,
+                                                            "end": 7194,
+                                                            "range": [
+                                                                7162,
+                                                                7194
+                                                            ],
+                                                            "callee": {
+                                                                "type": "NewExpression",
+                                                                "start": 7162,
+                                                                "end": 7192,
+                                                                "range": [
+                                                                    7162,
+                                                                    7192
+                                                                ],
+                                                                "callee": {
+                                                                    "type": "Identifier",
+                                                                    "start": 7166,
+                                                                    "end": 7174,
+                                                                    "range": [
+                                                                        7166,
+                                                                        7174
+                                                                    ],
+                                                                    "name": "Function"
+                                                                },
+                                                                "arguments": [
+                                                                    {
+                                                                        "type": "CallExpression",
+                                                                        "start": 7175,
+                                                                        "end": 7191,
+                                                                        "range": [
+                                                                            7175,
+                                                                            7191
+                                                                        ],
+                                                                        "callee": {
+                                                                            "type": "Identifier",
+                                                                            "start": 7175,
+                                                                            "end": 7184,
+                                                                            "range": [
+                                                                                7175,
+                                                                                7184
+                                                                            ],
+                                                                            "name": "_0x13e8e9"
+                                                                        },
+                                                                        "arguments": [
+                                                                            {
+                                                                                "type": "Literal",
+                                                                                "start": 7185,
+                                                                                "end": 7190,
+                                                                                "range": [
+                                                                                    7185,
+                                                                                    7190
+                                                                                ],
+                                                                                "value": 405,
+                                                                                "raw": "0x195"
+                                                                            }
+                                                                        ],
+                                                                        "optional": false
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "arguments": [],
+                                                            "optional": false
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "handler": {
+                                            "type": "CatchClause",
+                                            "start": 7196,
+                                            "end": 7435,
+                                            "range": [
+                                                7196,
+                                                7435
+                                            ],
+                                            "param": {
+                                                "type": "Identifier",
+                                                "start": 7202,
+                                                "end": 7211,
+                                                "range": [
+                                                    7202,
+                                                    7211
+                                                ],
+                                                "name": "_0x260d05"
+                                            },
+                                            "body": {
+                                                "type": "BlockStatement",
+                                                "start": 7212,
+                                                "end": 7435,
+                                                "range": [
+                                                    7212,
+                                                    7435
+                                                ],
+                                                "body": [
+                                                    {
+                                                        "type": "IfStatement",
+                                                        "start": 7213,
+                                                        "end": 7434,
+                                                        "range": [
+                                                            7213,
+                                                            7434
+                                                        ],
+                                                        "test": {
+                                                            "type": "BinaryExpression",
+                                                            "start": 7216,
+                                                            "end": 7251,
+                                                            "range": [
+                                                                7216,
+                                                                7251
+                                                            ],
+                                                            "left": {
+                                                                "type": "CallExpression",
+                                                                "start": 7216,
+                                                                "end": 7232,
+                                                                "range": [
+                                                                    7216,
+                                                                    7232
+                                                                ],
+                                                                "callee": {
+                                                                    "type": "Identifier",
+                                                                    "start": 7216,
+                                                                    "end": 7225,
+                                                                    "range": [
+                                                                        7216,
+                                                                        7225
+                                                                    ],
+                                                                    "name": "_0x13e8e9"
+                                                                },
+                                                                "arguments": [
+                                                                    {
+                                                                        "type": "Literal",
+                                                                        "start": 7226,
+                                                                        "end": 7231,
+                                                                        "range": [
+                                                                            7226,
+                                                                            7231
+                                                                        ],
+                                                                        "value": 363,
+                                                                        "raw": "0x16b"
+                                                                    }
+                                                                ],
+                                                                "optional": false
+                                                            },
+                                                            "operator": "!==",
+                                                            "right": {
+                                                                "type": "CallExpression",
+                                                                "start": 7235,
+                                                                "end": 7251,
+                                                                "range": [
+                                                                    7235,
+                                                                    7251
+                                                                ],
+                                                                "callee": {
+                                                                    "type": "Identifier",
+                                                                    "start": 7235,
+                                                                    "end": 7244,
+                                                                    "range": [
+                                                                        7235,
+                                                                        7244
+                                                                    ],
+                                                                    "name": "_0x13e8e9"
+                                                                },
+                                                                "arguments": [
+                                                                    {
+                                                                        "type": "Literal",
+                                                                        "start": 7245,
+                                                                        "end": 7250,
+                                                                        "range": [
+                                                                            7245,
+                                                                            7250
+                                                                        ],
+                                                                        "value": 407,
+                                                                        "raw": "0x197"
+                                                                    }
+                                                                ],
+                                                                "optional": false
+                                                            }
+                                                        },
+                                                        "consequent": {
+                                                            "type": "BlockStatement",
+                                                            "start": 7252,
+                                                            "end": 7304,
+                                                            "range": [
+                                                                7252,
+                                                                7304
+                                                            ],
+                                                            "body": [
+                                                                {
+                                                                    "type": "IfStatement",
+                                                                    "start": 7253,
+                                                                    "end": 7303,
+                                                                    "range": [
+                                                                        7253,
+                                                                        7303
+                                                                    ],
+                                                                    "test": {
+                                                                        "type": "BinaryExpression",
+                                                                        "start": 7256,
+                                                                        "end": 7288,
+                                                                        "range": [
+                                                                            7256,
+                                                                            7288
+                                                                        ],
+                                                                        "left": {
+                                                                            "type": "UnaryExpression",
+                                                                            "start": 7256,
+                                                                            "end": 7269,
+                                                                            "range": [
+                                                                                7256,
+                                                                                7269
+                                                                            ],
+                                                                            "operator": "typeof",
+                                                                            "prefix": true,
+                                                                            "argument": {
+                                                                                "type": "Identifier",
+                                                                                "start": 7263,
+                                                                                "end": 7269,
+                                                                                "range": [
+                                                                                    7263,
+                                                                                    7269
+                                                                                ],
+                                                                                "name": "window"
+                                                                            }
+                                                                        },
+                                                                        "operator": "===",
+                                                                        "right": {
+                                                                            "type": "CallExpression",
+                                                                            "start": 7272,
+                                                                            "end": 7288,
+                                                                            "range": [
+                                                                                7272,
+                                                                                7288
+                                                                            ],
+                                                                            "callee": {
+                                                                                "type": "Identifier",
+                                                                                "start": 7272,
+                                                                                "end": 7281,
+                                                                                "range": [
+                                                                                    7272,
+                                                                                    7281
+                                                                                ],
+                                                                                "name": "_0x13e8e9"
+                                                                            },
+                                                                            "arguments": [
+                                                                                {
+                                                                                    "type": "Literal",
+                                                                                    "start": 7282,
+                                                                                    "end": 7287,
+                                                                                    "range": [
+                                                                                        7282,
+                                                                                        7287
+                                                                                    ],
+                                                                                    "value": 393,
+                                                                                    "raw": "0x189"
+                                                                                }
+                                                                            ],
+                                                                            "optional": false
+                                                                        }
+                                                                    },
+                                                                    "consequent": {
+                                                                        "type": "BlockStatement",
+                                                                        "start": 7289,
+                                                                        "end": 7303,
+                                                                        "range": [
+                                                                            7289,
+                                                                            7303
+                                                                        ],
+                                                                        "argument": {
+                                                                            "type": "Identifier",
+                                                                            "start": 7296,
+                                                                            "end": 7302,
+                                                                            "range": [
+                                                                                7296,
+                                                                                7302
+                                                                            ],
+                                                                            "name": "window"
+                                                                        },
+                                                                        "body": [
+                                                                            {
+                                                                                "type": "ReturnStatement",
+                                                                                "start": 7289,
+                                                                                "end": 7303,
+                                                                                "range": [
+                                                                                    7289,
+                                                                                    7303
+                                                                                ],
+                                                                                "argument": {
+                                                                                    "type": "Identifier",
+                                                                                    "start": 7296,
+                                                                                    "end": 7302,
+                                                                                    "range": [
+                                                                                        7296,
+                                                                                        7302
+                                                                                    ],
+                                                                                    "name": "window"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "alternate": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        "alternate": {
+                                                            "type": "BlockStatement",
+                                                            "start": 7308,
+                                                            "end": 7434,
+                                                            "range": [
+                                                                7308,
+                                                                7434
+                                                            ],
+                                                            "body": [
+                                                                {
+                                                                    "type": "FunctionDeclaration",
+                                                                    "start": 7309,
+                                                                    "end": 7433,
+                                                                    "range": [
+                                                                        7309,
+                                                                        7433
+                                                                    ],
+                                                                    "id": {
+                                                                        "type": "Identifier",
+                                                                        "start": 7318,
+                                                                        "end": 7326,
+                                                                        "range": [
+                                                                            7318,
+                                                                            7326
+                                                                        ],
+                                                                        "name": "_0x7b966"
+                                                                    },
+                                                                    "expression": false,
+                                                                    "generator": false,
+                                                                    "async": false,
+                                                                    "params": [],
+                                                                    "body": {
+                                                                        "type": "BlockStatement",
+                                                                        "start": 7328,
+                                                                        "end": 7433,
+                                                                        "range": [
+                                                                            7328,
+                                                                            7433
+                                                                        ],
+                                                                        "body": [
+                                                                            {
+                                                                                "type": "VariableDeclaration",
+                                                                                "start": 7329,
+                                                                                "end": 7355,
+                                                                                "range": [
+                                                                                    7329,
+                                                                                    7355
+                                                                                ],
+                                                                                "declarations": [
+                                                                                    {
+                                                                                        "type": "VariableDeclarator",
+                                                                                        "start": 7335,
+                                                                                        "end": 7354,
+                                                                                        "range": [
+                                                                                            7335,
+                                                                                            7354
+                                                                                        ],
+                                                                                        "id": {
+                                                                                            "type": "Identifier",
+                                                                                            "start": 7335,
+                                                                                            "end": 7344,
+                                                                                            "range": [
+                                                                                                7335,
+                                                                                                7344
+                                                                                            ],
+                                                                                            "name": "_0x366902"
+                                                                                        },
+                                                                                        "init": {
+                                                                                            "type": "Identifier",
+                                                                                            "start": 7345,
+                                                                                            "end": 7354,
+                                                                                            "range": [
+                                                                                                7345,
+                                                                                                7354
+                                                                                            ],
+                                                                                            "name": "_0x13e8e9"
+                                                                                        }
+                                                                                    }
+                                                                                ],
+                                                                                "kind": "const"
+                                                                            },
+                                                                            {
+                                                                                "type": "ExpressionStatement",
+                                                                                "start": 7355,
+                                                                                "end": 7432,
+                                                                                "range": [
+                                                                                    7355,
+                                                                                    7432
+                                                                                ],
+                                                                                "expression": {
+                                                                                    "type": "CallExpression",
+                                                                                    "start": 7355,
+                                                                                    "end": 7431,
+                                                                                    "range": [
+                                                                                        7355,
+                                                                                        7431
+                                                                                    ],
+                                                                                    "callee": {
+                                                                                        "type": "MemberExpression",
+                                                                                        "start": 7355,
+                                                                                        "end": 7400,
+                                                                                        "range": [
+                                                                                            7355,
+                                                                                            7400
+                                                                                        ],
+                                                                                        "object": {
+                                                                                            "type": "MemberExpression",
+                                                                                            "start": 7355,
+                                                                                            "end": 7382,
+                                                                                            "range": [
+                                                                                                7355,
+                                                                                                7382
+                                                                                            ],
+                                                                                            "object": {
+                                                                                                "type": "Identifier",
+                                                                                                "start": 7355,
+                                                                                                "end": 7364,
+                                                                                                "range": [
+                                                                                                    7355,
+                                                                                                    7364
+                                                                                                ],
+                                                                                                "name": "_0x6d45aa"
+                                                                                            },
+                                                                                            "property": {
+                                                                                                "type": "CallExpression",
+                                                                                                "start": 7365,
+                                                                                                "end": 7381,
+                                                                                                "range": [
+                                                                                                    7365,
+                                                                                                    7381
+                                                                                                ],
+                                                                                                "callee": {
+                                                                                                    "type": "Identifier",
+                                                                                                    "start": 7365,
+                                                                                                    "end": 7374,
+                                                                                                    "range": [
+                                                                                                        7365,
+                                                                                                        7374
+                                                                                                    ],
+                                                                                                    "name": "_0x366902"
+                                                                                                },
+                                                                                                "arguments": [
+                                                                                                    {
+                                                                                                        "type": "Literal",
+                                                                                                        "start": 7375,
+                                                                                                        "end": 7380,
+                                                                                                        "range": [
+                                                                                                            7375,
+                                                                                                            7380
+                                                                                                        ],
+                                                                                                        "value": 389,
+                                                                                                        "raw": "0x185"
+                                                                                                    }
+                                                                                                ],
+                                                                                                "optional": false
+                                                                                            },
+                                                                                            "computed": true,
+                                                                                            "optional": false
+                                                                                        },
+                                                                                        "property": {
+                                                                                            "type": "CallExpression",
+                                                                                            "start": 7383,
+                                                                                            "end": 7399,
+                                                                                            "range": [
+                                                                                                7383,
+                                                                                                7399
+                                                                                            ],
+                                                                                            "callee": {
+                                                                                                "type": "Identifier",
+                                                                                                "start": 7383,
+                                                                                                "end": 7392,
+                                                                                                "range": [
+                                                                                                    7383,
+                                                                                                    7392
+                                                                                                ],
+                                                                                                "name": "_0x366902"
+                                                                                            },
+                                                                                            "arguments": [
+                                                                                                {
+                                                                                                    "type": "Literal",
+                                                                                                    "start": 7393,
+                                                                                                    "end": 7398,
+                                                                                                    "range": [
+                                                                                                        7393,
+                                                                                                        7398
+                                                                                                    ],
+                                                                                                    "value": 382,
+                                                                                                    "raw": "0x17e"
+                                                                                                }
+                                                                                            ],
+                                                                                            "optional": false
+                                                                                        },
+                                                                                        "computed": true,
+                                                                                        "optional": false
+                                                                                    },
+                                                                                    "arguments": [
+                                                                                        {
+                                                                                            "type": "Identifier",
+                                                                                            "start": 7401,
+                                                                                            "end": 7410,
+                                                                                            "range": [
+                                                                                                7401,
+                                                                                                7410
+                                                                                            ],
+                                                                                            "name": "_0xd635f2"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "Identifier",
+                                                                                            "start": 7411,
+                                                                                            "end": 7420,
+                                                                                            "range": [
+                                                                                                7411,
+                                                                                                7420
+                                                                                            ],
+                                                                                            "name": "_0x2bb4f2"
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "Identifier",
+                                                                                            "start": 7421,
+                                                                                            "end": 7430,
+                                                                                            "range": [
+                                                                                                7421,
+                                                                                                7430
+                                                                                            ],
+                                                                                            "name": "_0x426468"
+                                                                                        }
+                                                                                    ],
+                                                                                    "optional": false
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "finalizer": null
+                                    }
+                                ]
+                            }
+                        },
+                        "arguments": [],
+                        "optional": false
+                    }
+                }
+            }
+        ]
+    }
+} 
+err = TypeError: Cannot read properties of undefined (reading 'type')
+Running Simplify transformer
+Running DeadCode transformer
+Running Simplify transformer
+Running DeadCode transformer
+Deobfuscation complete in 0m 0s 771ms
